@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { onMount } from 'svelte';
-  import ArticleCard from '$lib/components/ArticleCard.svelte';
+	import ArticleCard from '$lib/components/ArticleCard.svelte';
 
 	export let data: PageData;
 	onMount(() => {
@@ -10,10 +10,10 @@
 	});
 </script>
 
-<main class='max-w-3xl px-4 mx-auto'>
+<main class="max-w-3xl px-4 mx-auto">
 	{#if data && data.status === 200}
 		{#each data.data.filter((article) => article.urlToImage) as article}
 			<ArticleCard {article} />
 		{/each}
-  {/if}
+	{/if}
 </main>
