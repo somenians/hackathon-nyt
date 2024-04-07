@@ -8,7 +8,7 @@
     -w-screen-xl items-left lg:py-32 lg:px-24"
 	>
 		<div class="border-b">
-			<h1 class="mb-6 text-3xl md:text-6xl lg:text-5xl">News</h1>
+			<h1 class="mb-6 text-3xl md:text-6xl lg:text-5xl">Crossword</h1>
 		</div>
 	</div>
 </main>

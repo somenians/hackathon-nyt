@@ -5,9 +5,6 @@
 </script>
 
 <div class="min-h-screen relative">
-	<a href="/">
-		<div class="h-16 text-center justify-center">NYT TIMES</div>
-	</a>
 	<Header />
 	<slot />
 	<Footer />
